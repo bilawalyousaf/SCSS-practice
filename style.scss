@@ -1,87 +1,85 @@
-// h1 {
-//     color: red;
-//     background: blue;
-//     border-radius: 10px;
-//     padding-left: 20px;
-// }
-
-// $blue: rgb(35, 12, 62);
-// $bg: rgb(255, 255, 255);
-
-// p {
-//     color: $blue;
-//     background-color: $bg;
-// }
-
-// // @mixin my-butttons (color, padding) {
-// //     background-color: bgcolor;
-// //     color: color;
-// //     border-radius: 20px;
-// //     border: 5px solid rgb(0, 255, 60);
-// // }
-
-// #btn1 {
-//     color: $bg;
-//     background-color: $blue;
-//     @include my-butttons(blue, $bg, 10px);
-// }
-// #btn2 {
-//     color: $bg;
-//     background-color: $blue;
-//     @include my-butttons();
-// }
-// #btn3 {
-//     color: $bg;
-//     background-color: $blue;
-//     @include my-butttons()  ;
-// }
-// #btn4 {
-//     color: $bg;
-//     background-color: $blue;
-//     @include my-butttons();
-// }
-// #btn5 {
-//     color: $bg; 
-//     background-color: $blue;
-//     @include my-butttons();
-// }
+h1 {
+    color: red;
+    background: blue;
+    border-radius: 10px;
+    padding-left: 20px;
+}
  
-// body {
-//     background-color: $blue;
-// }
-// #btn1 {
-//     color: $bg;
-//     background-color: $blue;
-// }
+$blue: rgb(35, 12, 62);
+$bg: rgb(255, 255, 255);
+
+p {
+    color: $blue;
+    background-color: $bg;
+}
+
+@mixin my-butttons ($bgcolor, $color, $padding) {
+    background-color: $bgcolor;
+    color: $color;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 255, 60);
+}
+
+#btn1 {
+    @include my-butttons(rgb(255, 255, 255), rgb(0, 0, 0), 10px);
+}
+
+#btn2 {
+    @include my-butttons(rgb(255, 255, 255), rgb(0, 0, 0), 10px);
+}
+
+#btn3 {
+   @include my-butttons(rgb(126, 126, 182), rgb(77, 205, 94), 10px);
+}
+
+#btn4 {
+  
+    @include my-butttons(rgb(126, 126, 182), rgb(77, 205, 94), 10px);
+}
+
+#btn5 {
+    @include my-butttons(rgb(126, 126, 182), rgb(77, 205, 94), 10px);
+}
 
 
 
-// body {
-//     background-color: $bg;
-// }
+ 
+body {
+    background-color: $blue;
+}
+#btn1 {
+    color: $bg;
+    background-color: $blue;
+}
 
-// .box {
-//   background: pink;
-//   color: black;
-// border-radius: 10px;
-// padding: 10px;
-// margin-top: 1em;
-//   h1{
-//     color: purple;
-//     background: pink;
-//   }
 
-//   p{
-//     color: black;
-//     background: pink;
-//   } 
-// }
 
-// #world {
-//     color: pink;
-//     display: inline-block;
-//     width: calc(100% - 200px);
-// }
+body {
+    background-color: $bg;
+}
+
+.box {
+  background: pink;
+  color: black;
+border-radius: 10px;
+padding: 10px;
+margin-top: 1em;
+  h1{
+    color: purple;
+    background: pink;
+  }
+
+  p{
+    color: black;
+    background: pink;
+  } 
+}
+
+#world {
+    color: pink;
+    display: inline-block;
+    width: calc(100% - 200px);
+}
 
 
 @mixin ruffCode ( $bgcolor, $color, $padding,) {

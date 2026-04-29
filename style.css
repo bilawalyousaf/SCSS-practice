@@ -1,3 +1,85 @@
+h1 {
+  color: red;
+  background: blue;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+p {
+  color: rgb(35, 12, 62);
+  background-color: rgb(255, 255, 255);
+}
+
+#btn1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 5px solid rgb(0, 255, 60);
+}
+
+#btn2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 5px solid rgb(0, 255, 60);
+}
+
+#btn3 {
+  background-color: rgb(126, 126, 182);
+  color: rgb(77, 205, 94);
+  border-radius: 20px;
+  border: 5px solid rgb(0, 255, 60);
+}
+
+#btn4 {
+  background-color: rgb(126, 126, 182);
+  color: rgb(77, 205, 94);
+  border-radius: 20px;
+  border: 5px solid rgb(0, 255, 60);
+}
+
+#btn5 {
+  background-color: rgb(126, 126, 182);
+  color: rgb(77, 205, 94);
+  border-radius: 20px;
+  border: 5px solid rgb(0, 255, 60);
+}
+
+body {
+  background-color: rgb(35, 12, 62);
+}
+
+#btn1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(35, 12, 62);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.box {
+  background: pink;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 1em;
+}
+.box h1 {
+  color: purple;
+  background: pink;
+}
+.box p {
+  color: black;
+  background: pink;
+}
+
+#world {
+  color: pink;
+  display: inline-block;
+  width: calc(100% - 200px);
+}
+
 input {
   background-color: lighblue;
   color: rgb(0, 0, 0);
